@@ -15,13 +15,15 @@
 <body>
     <!-- header -->
     <?php get_header(); ?>
-    <div class="main" style="position: relative;">
-        <img class="_bgr-home " style="min-height: 60vh; overflow: hidden;" src="<?php bloginfo('template_directory')?>/images/l-shaped-kitchen-layout.png"
+    <div class="_main" style="position: relative;">
+        <img class="_bgr-home " style="min-height: 60vh; overflow: hidden;" src="<?php bloginfo('template_directory'); ?>/images/l-shaped-kitchen-layout.png"
             alt="bgr" srcset="">
-        <div class="_content-home">
-            Sleek and modern design elevates the look of any kitchen
+        <div class="col-12 col-md-3  _content-home ">
+            <img style="width:100%" src="<?php bloginfo('template_directory'); ?>/images/Sleek and modern design elevates the look of any kitchen.png"
+                alt="bgr" srcset="">
         </div>
     </div>
+
     <!-- footer -->
     <?php get_footer(); ?>
 </body>
