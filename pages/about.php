@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: SPECIFICATIONS
+ Template Name: ABOUT
  */
 ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPECIFICATIONS</title>
+    <title>ABOUT</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/styles/style.css">
@@ -20,10 +20,10 @@
 <body>
     <!-- header -->
     <?php get_header(); ?>
-    <div class="main">
-        <img class="_bgr-home " src="<?php bloginfo('template_directory')?>/images/iStock-629412844 copy.png" alt="bgr" srcset="">
-        <div class="_main-content container-fluid d-flex row">
-            <div class="text-content col-12 col-md-8">
+    <div class="main_heathy">
+        <img class="_bgr-healthy" src="<?php bloginfo('template_directory')?>/images/bgr-bottom.png" alt="bgr" srcset="">
+        <div class="_main-content container-fluid d-flex ">
+            <div class="text-content"  style="pading: 0  5%">
                 HydroThermal Electrolysis Technology (HTET) is at the heart of Letus SuperWater.
                 <br />
                 <br />
@@ -46,9 +46,6 @@
                 <br />
                 Instead of wastewater, Letus SuperWater machine outputs Ozone water in the concentration that can be
                 used for facewash or washing of vegetables.
-            </div>
-            <div class="col-8 col-md-4 text-center">
-                <img style="width:80%" src="<?php bloginfo('template_directory')?>/images/SW_AutoTune_Help.png" alt="">
             </div>
         </div>
     </div>

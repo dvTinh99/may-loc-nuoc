@@ -1,7 +1,9 @@
 <div class="header">
         <div class="container-fluid">
             <div class=" logo">
-                <img src="<?php bloginfo('template_directory')?>/images/Group 1.png" alt="logoimg" srcset="">
+                <a href="/">
+                    <img src="<?php bloginfo('template_directory')?>/images/Group 1.png" alt="logoimg" srcset="">
+                </a>
             </div>
             <nav class=" navbar-expand-lg navbar-light">
                 <div class="container-fluid">
@@ -14,10 +16,10 @@
                     <div class="collapse navbar-collapse " id="navbarNav">
                         <ul class="navbar-nav col-12 d-flex justify-content-around">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">HOME</a>
+                                <a class="nav-link" href="/">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT</a>
+                                <a class="nav-link" href="/about">ABOUT</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="/specifications/">SPECIFICATIONS & FEATURES</a>
@@ -26,13 +28,13 @@
                                 <a class="nav-link" href="#"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/healthybenefit">HEALTH BENEFITS</a>
+                                <a class="nav-link" href="/healthybenefitS">HEALTH BENEFITS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/accessories">ACCESSORIES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">SUPPORT/CONTACT</a>
+                                <a class="nav-link" href="#">TESTIMONIES</a>
                             </li>
 
                         </ul>

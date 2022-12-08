@@ -15,15 +15,30 @@
 <body>
     <!-- header -->
     <?php get_header(); ?>
-    <div class="_main" style="position: relative;">
-        <img class="_bgr-home " style="min-height: 60vh; overflow: hidden;" src="<?php bloginfo('template_directory'); ?>/images/l-shaped-kitchen-layout.png"
-            alt="bgr" srcset="">
-        <div class="col-12 col-md-3  _content-home ">
-            <img style="width:100%" src="<?php bloginfo('template_directory'); ?>/images/Sleek and modern design elevates the look of any kitchen.png"
-                alt="bgr" srcset="">
-        </div>
-    </div>
+    <div class="main_heathy">
+        <img class="_bgr-healthy " src="<?php bloginfo('template_directory')?>/images/bgr-bottom.png" alt="bgr" srcset="">
+        <div class="_main-content container-fluid d-flex row" style="padding: 0;">
+            <div class=" col-12 col-md-8 text-center">
+                <img style="width:65%" src="<?php bloginfo('template_directory')?>/images/LIVING MORE  THAN AN ORDINARY LIFE.png" alt="">
+                <br />
+                <img style="width:6%; margin: 20px;" src="<?php bloginfo('template_directory')?>/images/with.png" alt="">
+                <br />
+                <img style="width:20%" src="<?php bloginfo('template_directory')?>/images/Color Fill 2.png" alt="">
 
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <img class="_img-produc-left" id="img-product" src="<?php bloginfo('template_directory')?>/images/SW_AutoTune_Help.png" alt="">
+            </div>
+            <div class="content-healthy_bottom col  text-center">
+                Anti-oxidant rich water - Better hydration - Natural blood thinner - Protect cells from oxidation -
+                Cancer prevention - Anti-inflammatory effects -
+                Improve joint mobilities - Better blood sugar control - Improve stamina - Improve memory and mental
+                alertness
+
+            </div>
+        </div>
+
+    </div>
     <!-- footer -->
     <?php get_footer(); ?>
 </body>
