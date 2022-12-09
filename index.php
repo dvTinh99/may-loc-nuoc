@@ -27,7 +27,7 @@
 
             </div>
             <div class="col-12 col-md-4 text-center">
-                <img class="_img-produc-left" id="img-product" src="<?php bloginfo('template_directory')?>/images/SW_AutoTune_Help.png" alt="">
+                <img class="_img-produc-left" id="img-product" src="<?php bloginfo('template_directory')?>/images/product-left.png" alt="">
             </div>
             <div class="content-healthy_bottom col  text-center">
                 Anti-oxidant rich water - Better hydration - Natural blood thinner - Protect cells from oxidation -
