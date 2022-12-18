@@ -39,7 +39,7 @@
                 All food grade materials
                 <br/>
                 <br/>
-                Votlage range that can be used in the US as well as Europe and Asia
+                Voltage range that can be used in the US as well as Europe and Asia
             </div>
             <div class="col-12 col-md-4 text-center" id="img-product-specification">
                 <img class="_img-produc-left" src="<?php bloginfo('template_directory')?>/images/product-left.png" alt="">

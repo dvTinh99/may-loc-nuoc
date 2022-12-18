@@ -16,7 +16,7 @@
     <!-- header -->
     <?php get_header(); ?>
     <div class="main_heathy">
-        <img class="_bgr-healthy " src="<?php bloginfo('template_directory')?>/images/bgr-bottom.png" alt="bgr" srcset="">
+        <img class="_bgr-healthy " style="max-height: 75vh" src="<?php bloginfo('template_directory')?>/images/bgr-bottom.png" alt="bgr" srcset="">
         <div class="_main-content container-fluid d-flex row" style="padding: 0;">
             <div class=" col-12 col-md-8 text-center">
                 <img style="width:65%" src="<?php bloginfo('template_directory')?>/images/LIVING MORE  THAN AN ORDINARY LIFE.png" alt="">

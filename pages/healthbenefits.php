@@ -22,7 +22,7 @@
         <img class="_bgr_" src="<?php bloginfo('template_directory')?>/images/bgr-bottom.png" alt="bgr" srcset="">
 
         <div class="container-fluid  text-center" id="accesories">
-            <img class="col-12" style ="padding: 5%" 
+            <img class="col-10" style ="padding: 5% ; margin:0 auto" 
                 src="<?php bloginfo('template_directory')?>/images/healthy.png" alt="face" srcset="">
         </div>
     </div>
